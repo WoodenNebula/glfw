@@ -69,6 +69,10 @@ project "GLFW"
 	-- filter {"system:linux", "backend:X11"}
 		files
 		{		
+			"src/egl_context.c",
+			-- "src/wgl_context.c",
+			"src/osmesa_context.c",
+
 			"src/x11_init.c",
 			"src/x11_monitor.c",
 			"src/x11_window.c",
